@@ -1,0 +1,15 @@
+.controls-container{
+    display: flex;
+    justify-content: center;
+}
+.controls-container button{
+
+    margin: 15px;
+    border: none;
+    background-color: salmon;
+    padding: 3px 12px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+}

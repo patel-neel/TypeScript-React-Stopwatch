@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background: rgb(43, 135, 136);
+    background: radial-gradient(circle, rgba(43, 135, 136, 1) 2%, rgba(43, 113, 158, 1) 49%, rgba(43, 136, 136, 1) 98%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 5rem;
+}
+
+.time-container span{
+    position: relative;
+    top: 5px;
+    font-size: 4rem;
+}
+
+.timer-text{
+    margin: 0;
+}
